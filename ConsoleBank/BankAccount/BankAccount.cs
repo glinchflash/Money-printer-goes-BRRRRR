@@ -10,18 +10,18 @@ public class BankAccount
     
     public Client _client;
     public Type type;
-    public int Balance = 0;
+    public int balance = 0;
     
     public BankAccount(int initDeposit, Client client, int typeChoose)
     {
-        this.Balance += initDeposit;
+        this.balance += initDeposit;
         this._client = client;
         this.type = TypeSelection(typeChoose);
     }
     
-    public int CheckBalance()
+    public int Checkbalance()
     {
-        return Balance;
+        return balance;
     }
 
     public int Withdraw(int value)
@@ -31,11 +31,11 @@ public class BankAccount
             throw new Exception("Amount has to be bigger then 0");
         }
         
-        if (this.Balance - value < 0)
+        if (this.balance - value < 0)
         {
             throw new Exception("Insufficient balance to withdraw this amount!");
         }
-        return this.Balance -= value;
+        return this.balance -= value;
     }
 
     public int Deposit(int value)
@@ -44,7 +44,7 @@ public class BankAccount
         {
             throw new Exception("Amount has to be bigger then 0");
         }
-        return this.Balance += value;
+        return this.balance += value;
     }
 
     public  Type TypeSelection(int Selector)
