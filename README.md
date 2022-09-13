@@ -45,13 +45,13 @@ The bank account class
     - ✓ Name
     - ✓ Date joined
 
-- ✔ The bank account class
-  - [x] A constructor
-  - [x] Properties:
+- :heavy_check_mark: The bank account class
+  - ✓ A constructor
+  - ✓ Properties:
     - ✓ Client
     - ✓ Balance
     - ✓ Type
-  - [x] Methods:
+  - ✓ Methods:
     - ✓ CheckBalance
     - ✓ Withdraw
     - ✓ Deposit
