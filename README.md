@@ -39,13 +39,22 @@ The bank account class
 
 ### Must have progression
 - :heavy_check_mark: Client class
-  - ✓  constructor
+  - ✓ constructor
   - ✓ properties
     - ✓ id
     - ✓ Name
     - ✓ Date joined
 
-
+- ✔ The bank account class
+  - [x] A constructor
+  - [x] Properties:
+    - ✓ Client
+    - ✓ Balance
+    - ✓ Type
+  - [x] Methods:
+    - ✓ CheckBalance
+    - ✓ Withdraw
+    - ✓ Deposit
 ### The end goal?
 In the main function of the program you will create a Client and his/her bankAccount.
 Here you will then make different deposits and withdrawals.
