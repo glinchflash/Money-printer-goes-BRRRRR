@@ -15,7 +15,7 @@ if (string.IsNullOrEmpty(name))
 
 if (name is not null)
 {
-    var currentDate = DateTime.Now;
+    DateTime currentDate = DateTime.Now;
     Client client = new Client(1, name, currentDate);
     // asking for initial balance/deposit and defining it in the bankaccount
     System.Threading.Thread.Sleep(300);
@@ -46,6 +46,8 @@ if (name is not null)
         System.Threading.Thread.Sleep(300);
         Console.WriteLine("Your new " + bankAccount.type + " has been opened on following name: ");
         Console.WriteLine(client.name);
+        Console.WriteLine("and on following date: ");
+        Console.WriteLine(client.dateJoined);
         System.Threading.Thread.Sleep(500);
         Console.WriteLine("And your current balance is: " + bankAccount.balance);
         

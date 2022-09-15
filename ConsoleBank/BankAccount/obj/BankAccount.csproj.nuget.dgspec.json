@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\glenn\\Desktop\\becode\\mygithub\\Money-printer-goes-BRRRRR\\ConsoleBank\\BankAccount\\BankAccount.csproj": {}
+    "C:\\Users\\glenn\\desktop\\becode\\mygithub\\Money-printer-goes-BRRRRR\\ConsoleBank\\BankAccount\\BankAccount.csproj": {}
   },
   "projects": {
-    "C:\\Users\\glenn\\Desktop\\becode\\mygithub\\Money-printer-goes-BRRRRR\\ConsoleBank\\BankAccount\\BankAccount.csproj": {
+    "C:\\Users\\glenn\\desktop\\becode\\mygithub\\Money-printer-goes-BRRRRR\\ConsoleBank\\BankAccount\\BankAccount.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\glenn\\Desktop\\becode\\mygithub\\Money-printer-goes-BRRRRR\\ConsoleBank\\BankAccount\\BankAccount.csproj",
+        "projectUniqueName": "C:\\Users\\glenn\\desktop\\becode\\mygithub\\Money-printer-goes-BRRRRR\\ConsoleBank\\BankAccount\\BankAccount.csproj",
         "projectName": "BankAccount",
-        "projectPath": "C:\\Users\\glenn\\Desktop\\becode\\mygithub\\Money-printer-goes-BRRRRR\\ConsoleBank\\BankAccount\\BankAccount.csproj",
+        "projectPath": "C:\\Users\\glenn\\desktop\\becode\\mygithub\\Money-printer-goes-BRRRRR\\ConsoleBank\\BankAccount\\BankAccount.csproj",
         "packagesPath": "C:\\Users\\glenn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\glenn\\Desktop\\becode\\mygithub\\Money-printer-goes-BRRRRR\\ConsoleBank\\BankAccount\\obj\\",
+        "outputPath": "C:\\Users\\glenn\\desktop\\becode\\mygithub\\Money-printer-goes-BRRRRR\\ConsoleBank\\BankAccount\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\glenn\\AppData\\Roaming\\NuGet\\NuGet.Config"
